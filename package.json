@@ -1,0 +1,16 @@
+{
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "rm -rf output && abap_transpile abap_transpile.json && echo RUNNING && node output/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abapGit/abapGit.git"
+  },
+  "devDependencies": {
+    "@abaplint/cli": "^2.76.7",
+    "@abaplint/transpiler-cli": "^1.5.8",
+    "@abaplint/runtime": "^1.5.8"
+  }
+}
