@@ -18,11 +18,9 @@ CLASS ltcl_test IMPLEMENTATION.
 
     lv_adler = zcl_abapgit_hash=>adler32( '1122334455667788' ).
 
-    ASSERT lv_adler = '08000265'.
-
-    " sdf cl_abap_unit_assert=>assert_equals(
-    "   act = lv_adler
-    "   exp = '08000265' ).
+    cl_abap_unit_assert=>assert_equals(
+      act = lv_adler
+      exp = '08000265' ).
 
   ENDMETHOD.
 

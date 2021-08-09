@@ -11,3 +11,8 @@ Running, `npm install && npm run unit`
 ABAP code is 702, for higher version support do [automatic downport](https://rules.abaplint.org/downport/) first, note that this does not currently have source maps, so debugging will feel broken.
 
 video/gif?
+
+## Recommendations
+
+* Start early
+* Design and build for testing
