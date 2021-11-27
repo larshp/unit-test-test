@@ -1,6 +1,6 @@
 # unit-test-test
 
-[Node 14](https://nodejs.org/en/download/) must be installed locally
+[Node 16+](https://nodejs.org/en/download/) must be installed locally
 
 Latest [vscode](https://code.visualstudio.com/)
 
